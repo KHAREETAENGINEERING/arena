@@ -99,6 +99,22 @@
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
+
+        function style_Polyline_FeatureToPolygon6_1_1_0() {
+            return {
+                pane: 'pane_Polyline_FeatureToPolygon6_1_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,182,111,1.0)',
+                interactive: true,
+            }
+        }
         map.createPane('pane_Polyline_FeatureToPolygon6_1_1');
         map.getPane('pane_Polyline_FeatureToPolygon6_1_1').style.zIndex = 401;
         map.getPane('pane_Polyline_FeatureToPolygon6_1_1').style['mix-blend-mode'] = 'normal';
