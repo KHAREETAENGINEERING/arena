@@ -48,7 +48,7 @@ function addLabel(layer, id) {
           parseInt(Math.random() * (5 - 1) + 1), // Weight
           label,
           "Test " + id,
-          true
+          false
         );
 
         // If the label hasn't been added to the map already
